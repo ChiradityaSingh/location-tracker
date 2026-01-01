@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <h1>Location Tracker with Live Updates & Activity</h1>
+    <p>This site tracks your location only with your permission. Data is stored locally or on server.</p>
+    <button id="startBtn">Start Live Tracking</button>
+    <button id="stopBtn" disabled>Stop Tracking</button>
+    <div id="map" style="height: 400px; margin: 20px 0;"></div>
+    <h2>Activity History</h2>
+    <ul id="activityList"></ul>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
